@@ -1,13 +1,226 @@
 {
-    "posts": [
-      { "id": "1", "title": "a title", "views": 100 },
-      { "id": "2", "title": "another title", "views": 200 }
-    ],
-    "comments": [
-      { "id": "1", "text": "a comment about post 1", "postId": "1" },
-      { "id": "2", "text": "another comment about post 1", "postId": "1" }
-    ],
-    "profile": {
-      "name": "typicode"
+  "addresses": [
+    {
+      "id": 1,
+      "street": "123 Main St",
+      "city": "Lima",
+      "state": "Lima",
+      "postal_code": "15001",
+      "country": "Peru"
+    },
+    {
+      "id": 2,
+      "street": "456 Main St",
+      "city": "Lima",
+      "state": "Lima",
+      "postal_code": "08001",
+      "country": "Peru"
     }
-  }
+  ],
+  "contact_information": [
+    {
+      "id": 1,
+      "phone_number": "1234567890",
+      "email": "info@example.com",
+      "secondary_email": "support@example.com",
+      "emergency_contact_number": "9876543210",
+      "addresses_id": 1
+    },
+    {
+      "id": 2,
+      "phone_number": "0987654321",
+      "email": "template@example.com",
+      "secondary_email": "example@example.com",
+      "emergency_contact_number": "1234567890",
+      "addresses_id": 2
+    }
+  ],
+  "drivers": [
+    {
+      "id": 1,
+      "first_name": "Jaime",
+      "last_name": "Buendia",
+      "driver_license_number": "ABC123456",
+      "contact_information_id": 1,
+      "smart_bands_id": 1
+    },
+    {
+      "id": 2,
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "driver_license_number": "DEF789012",
+      "contact_information_id": 1,
+      "smart_bands_id": 2
+    }
+  ],
+  "departures_schedule": [
+    {
+      "id": 1,
+      "departure_date": "2024-05-01",
+      "bus_unit_id": 101,
+      "shift_start": "08:00:00"
+    },
+    {
+      "id": 2,
+      "departure_date": "2024-05-02",
+      "bus_unit_id": 102,
+      "shift_start": "09:00:00"
+    }
+  ],
+  "departures": [
+    {
+      "id": 1,
+      "departures_schedule_id": 1,
+      "round_number": 1,
+      "departure_time": "08:30:00"
+    },
+    {
+      "id": 2,
+      "departures_schedule_id": 1,
+      "round_number": 2,
+      "departure_time": "11:30:00"
+    },
+    {
+      "id": 3,
+      "departures_schedule_id": 2,
+      "round_number": 1,
+      "departure_time": "09:30:00"
+    },
+    {
+      "id": 4,
+      "departures_schedule_id": 2,
+      "round_number": 2,
+      "departure_time": "12:30:00"
+    }
+  ],
+  "bus_unit": [
+    {
+      "id": 101,
+      "buses_id": 1,
+      "drivers_id": 1,
+      "transport_companies_id": 1,
+      "departures_schedule_id": 1
+    },
+    {
+      "id": 102,
+      "buses_id": 1,
+      "drivers_id": 2,
+      "transport_companies_id": 1,
+      "departures_schedule_id": 2
+    }
+  ],
+  "traffic_tickets": [
+    {
+      "id": 1,
+      "date_issued": "2024-04-30",
+      "time_issued": "10:30:00",
+      "offense": "Speeding",
+      "fine_amount": 150.0,
+      "paid": false,
+      "bus_unit_id": 101
+    }
+  ],
+  "buses_model": [
+    {
+      "id": 1,
+      "model_name": "Hiace",
+      "manufacturer": "Toyota",
+      "seating_capacity": 15,
+      "total_capacity": 40,
+      "lenght": 5.92,
+      "height": 2.83,
+      "width": 1.9,
+      "year": 2020
+    }
+  ],
+  "buses": [
+    {
+      "id": 1,
+      "license_plate": "ABC123",
+      "buses_model_id": 1
+    },
+    {
+      "id": 2,
+      "license_plate": "DEF456",
+      "buses_model_id": 1
+    }
+  ],
+  "transport_companies": [
+    {
+      "id": 1,
+      "name": "Transsur",
+      "img_bus": "https://freepngimg.com/thumb/categories/2991.png",
+      "logo": "https://cdn-icons-png.flaticon.com/512/1456/1456900.png",
+      "description": "Transsur is a leading transportation company in Peru.",
+      "itineraries_id": 1,
+      "manager_users_id": 2
+    }
+  ],
+  "itineraries": [
+    {
+      "id": 1,
+      "origin": "San Juan de Lurigancho",
+      "destiny": "Miraflores",
+      "total_distance": 0.25478
+    }
+  ],
+  "stops": [
+    {
+      "id": 1,
+      "name": "Plaza México",
+      "district": "San Juan de Lurigancho",
+      "latitude": "-12.0012569",
+      "longitude": "-77.0190334"
+    },
+    {
+      "id": 2,
+      "name": "Parque Zonal Huáscar",
+      "district": "Villa El Salvador",
+      "latitude": "-12.1933333",
+      "longitude": "-76.9497222"
+    },
+    {
+      "id": 3,
+      "name": "Plaza de Armas",
+      "district": "Cercado de Lima",
+      "latitude": "-12.0463731",
+      "longitude": "-77.0311593"
+    },
+    {
+      "id": 4,
+      "name": "Óvalo Balta",
+      "district": "Miraflores",
+      "latitude": "-12.1205228",
+      "longitude": "-77.0342407"
+    },
+    {
+      "id": 5,
+      "name": "Parque Kennedy",
+      "district": "Miraflores",
+      "latitude": "-12.1272328",
+      "longitude": "-77.0348778"
+    }
+  ],
+  "itineraries_stop": [
+    {
+      "stops_id": 1,
+      "itineraries_id": 1
+    },
+    {
+      "stops_id": 2,
+      "itineraries_id": 1
+    },
+    {
+      "stops_id": 3,
+      "itineraries_id": 1
+    },
+    {
+      "stops_id": 4,
+      "itineraries_id": 1
+    },
+    {
+      "stops_id": 5,
+      "itineraries_id": 1
+    }
+  ]
+}
