@@ -1,40 +1,4 @@
 {
-  "addresses": [
-    {
-      "id": 1,
-      "street": "123 Main St",
-      "city": "Lima",
-      "state": "Lima",
-      "postal_code": "15001",
-      "country": "Peru"
-    },
-    {
-      "id": 2,
-      "street": "456 Main St",
-      "city": "Lima",
-      "state": "Lima",
-      "postal_code": "08001",
-      "country": "Peru"
-    }
-  ],
-  "contact_information": [
-    {
-      "id": 1,
-      "phone_number": "1234567890",
-      "email": "info@example.com",
-      "secondary_email": "support@example.com",
-      "emergency_contact_number": "9876543210",
-      "addresses_id": 1
-    },
-    {
-      "id": 2,
-      "phone_number": "0987654321",
-      "email": "template@example.com",
-      "secondary_email": "example@example.com",
-      "emergency_contact_number": "1234567890",
-      "addresses_id": 2
-    }
-  ],
   "drivers": [
     {
       "id": 1,
@@ -109,42 +73,6 @@
       "departures_schedule_id": 2
     }
   ],
-  "traffic_tickets": [
-    {
-      "id": 1,
-      "date_issued": "2024-04-30",
-      "time_issued": "10:30:00",
-      "offense": "Speeding",
-      "fine_amount": 150.0,
-      "paid": false,
-      "bus_unit_id": 101
-    }
-  ],
-  "buses_model": [
-    {
-      "id": 1,
-      "model_name": "Hiace",
-      "manufacturer": "Toyota",
-      "seating_capacity": 15,
-      "total_capacity": 40,
-      "lenght": 5.92,
-      "height": 2.83,
-      "width": 1.9,
-      "year": 2020
-    }
-  ],
-  "buses": [
-    {
-      "id": 1,
-      "license_plate": "ABC123",
-      "buses_model_id": 1
-    },
-    {
-      "id": 2,
-      "license_plate": "DEF456",
-      "buses_model_id": 1
-    }
-  ],
   "transport_companies": [
     {
       "id": 1,
@@ -154,62 +82,6 @@
       "description": "Transsur is a leading transportation company in Peru.",
       "itineraries_id": 1,
       "manager_users_id": 2
-    }
-  ],
-  "itineraries": [
-    {
-      "id": 1,
-      "origin": "San Juan de Lurigancho",
-      "destiny": "Miraflores",
-      "total_distance": 0.25478
-    }
-  ],
-  "stops": [
-    {
-      "id": 1,
-      "name": "Plaza México",
-      "district": "San Juan de Lurigancho",
-      "latitude": "-12.0012569",
-      "longitude": "-77.0190334"
-    },
-    {
-      "id": 2,
-      "name": "Parque Zonal Huáscar",
-      "district": "Villa El Salvador",
-      "latitude": "-12.1933333",
-      "longitude": "-76.9497222"
-    },
-    {
-      "id": 3,
-      "name": "Plaza de Armas",
-      "district": "Cercado de Lima",
-      "latitude": "-12.0463731",
-      "longitude": "-77.0311593"
-    },
-    {
-      "id": 4,
-      "name": "Óvalo Balta",
-      "district": "Miraflores",
-      "latitude": "-12.1205228",
-      "longitude": "-77.0342407"
-    }
-  ],
-  "itineraries_stop": [
-    {
-      "stops_id": 1,
-      "itineraries_id": 1
-    },
-    {
-      "stops_id": 2,
-      "itineraries_id": 1
-    },
-    {
-      "stops_id": 3,
-      "itineraries_id": 1
-    },
-    {
-      "stops_id": 4,
-      "itineraries_id": 1
     }
   ]
 }
