@@ -192,13 +192,6 @@
       "district": "Miraflores",
       "latitude": "-12.1205228",
       "longitude": "-77.0342407"
-    },
-    {
-      "id": 5,
-      "name": "Parque Kennedy",
-      "district": "Miraflores",
-      "latitude": "-12.1272328",
-      "longitude": "-77.0348778"
     }
   ],
   "itineraries_stop": [
@@ -216,10 +209,6 @@
     },
     {
       "stops_id": 4,
-      "itineraries_id": 1
-    },
-    {
-      "stops_id": 5,
       "itineraries_id": 1
     }
   ]
