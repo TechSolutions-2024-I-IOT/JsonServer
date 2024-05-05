@@ -17,6 +17,78 @@
       "image_url": "",
       "contact_information_id": 1,
       "smart_bands_id": 2
+    },
+    {
+      "id": 3,
+      "first_name": "Carlos",
+      "last_name": "Martínez",
+      "driver_license_number": "GHI345678",
+      "image_url": "https://example.com/image3.jpg",
+      "contact_information_id": 2,
+      "smart_bands_id": 3
+    },
+    {
+      "id": 4,
+      "first_name": "Linda",
+      "last_name": "Garcia",
+      "driver_license_number": "JKL901234",
+      "image_url": "https://example.com/image4.jpg",
+      "contact_information_id": 2,
+      "smart_bands_id": 4
+    },
+    {
+      "id": 5,
+      "first_name": "Marco",
+      "last_name": "Chen",
+      "driver_license_number": "MNO567890",
+      "image_url": "https://example.com/image5.jpg",
+      "contact_information_id": 3,
+      "smart_bands_id": 5
+    },
+    {
+      "id": 6,
+      "first_name": "Sophia",
+      "last_name": "Lee",
+      "driver_license_number": "PQR123456",
+      "image_url": "https://example.com/image6.jpg",
+      "contact_information_id": 4,
+      "smart_bands_id": 6
+    },
+    {
+      "id": 7,
+      "first_name": "Mohamed",
+      "last_name": "Ali",
+      "driver_license_number": "STU789012",
+      "image_url": "https://example.com/image7.jpg",
+      "contact_information_id": 4,
+      "smart_bands_id": 7
+    },
+    {
+      "id": 8,
+      "first_name": "Anita",
+      "last_name": "Kumar",
+      "driver_license_number": "VWX345678",
+      "image_url": "https://example.com/image8.jpg",
+      "contact_information_id": 5,
+      "smart_bands_id": 8
+    },
+    {
+      "id": 9,
+      "first_name": "Bruce",
+      "last_name": "Johnson",
+      "driver_license_number": "YZA901234",
+      "image_url": "https://example.com/image9.jpg",
+      "contact_information_id": 5,
+      "smart_bands_id": 9
+    },
+    {
+      "id": 10,
+      "first_name": "Claire",
+      "last_name": "Brown",
+      "driver_license_number": "BCD567890",
+      "image_url": "https://example.com/image10.jpg",
+      "contact_information_id": 6,
+      "smart_bands_id": 10
     }
   ],
   "departures_schedule": [
