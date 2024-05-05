@@ -23,7 +23,7 @@
       "first_name": "Carlos",
       "last_name": "Martínez",
       "driver_license_number": "GHI345678",
-      "image_url": "https://example.com/image3.jpg",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7pwvGZeC4gwzb1CrCXxi5OzjXQ41Z0PTjOU8IkHzp2Q&s",
       "contact_information_id": 2,
       "smart_bands_id": 3
     },
@@ -41,7 +41,7 @@
       "first_name": "Marco",
       "last_name": "Chen",
       "driver_license_number": "MNO567890",
-      "image_url": "https://example.com/image5.jpg",
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV9xQwdmjiZ-VK7FrJ38E7zb6euzuKmWfVEJlrMG9AiA&s",
       "contact_information_id": 3,
       "smart_bands_id": 5
     },
